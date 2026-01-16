@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.sentfilm" name="SentFilm" version="1.0.1" provider-name="janos">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="script.module.resolveurl" version="5.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="plugin.video.youtube" version="7.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="hu">SentFilm.hu – Nem hivatalos Kodi médiaközpont kiegészítő</summary>
+        <description lang="hu">A SentFilm.hu keresztény film portál azzal a céllal jött létre, hogy keresztény tartalmú videókat magyarul mutasson be, azok internetes elérhetőségeit egy adatbázisban megjelenítse. A keresztény filmes honlap látogatóként való használata ingyenes.</description>
+        <disclaimer>A kiegészítő által megjelenített tartalmakért a fejlesztő nem vállal felelősséget.</disclaimer>
+        <language>hu</language>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/ss/1.jpg</screenshot>
+            <screenshot>resources/ss/2.jpg</screenshot>
+            <screenshot>resources/ss/3.jpg</screenshot>
+        </assets>
+        <news>
+1.0.1 - Keresés funkció javítása.
+
+1.0.0 - Első verzió
+        </news>
+    </extension>
+</addon>
+
+
+</addons>
